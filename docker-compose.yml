@@ -1,6 +1,6 @@
 services:
   elasticsearch:
-    image: elasticsearch:8.11.3
+    image: elasticsearch:8.14.1
     container_name: elasticsearch
     ports:
       # Map the 9200 port to a random port on host
